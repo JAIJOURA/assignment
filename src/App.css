@@ -1,38 +1,265 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+}
+body{
+  background-color: #B5D8FF;
+  font-family: 'Overpass', sans-serif;
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.material-icons.md-24 {
+  font-size: 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.material-icons.md-30 {
+  font-size: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-blue {
+  color: #5C9CE5;
+}
+.material-icons.md-yellow {
+  color: #FFA500;
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+.container{
+  margin: 102px auto ;
+  width: 1075px;
+  height: 760px;
+  background-color: #5C9CE5;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right-container{
+  width:795px;
+  height: 100%;
+  background-color:#E4F1FF;
+ float: right;
+  border-radius: 40px;
+  
+}
+.flex{
   display: flex;
-  flex-direction: column;
+    justify-content: space-between; 
+}
+.icon{
+  margin-top: 35px;
+display: inline-block;
+width: 225px;
+color: white;
+margin-left: 25px;
+}
+.location{
+  margin-top: 50px;
+
+  font-weight: normal;
+}
+.location span{
+  margin-top: 3px;
+}
+.temp{
+  margin-top: 25px;
+display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+.temp span {
+  flex-direction: column; 
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.temp span i{
+  font-size: small;
+}
+.tem{
+  font-size: 95px;
+}
+.ball {
+  margin: 100px auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  box-shadow: 0 0 35px 5px yellow, 0 0 25px 10px yellow inset
+}
+img{
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+.right-float{
+  float: right;
+  
+}
+.right-float i{
+  margin-bottom: 3px;
+}
+ 
+
+.heading{
+  margin: 37px 43px;
+  display: flex;
+  justify-content: space-between;
+}
+.graph{
+  background-color: #FFFFFF;
+  margin: 37px 43px;
+  border-radius: 35px ;
+  height: 190px;
+  width: auto;
+  padding: 25px;
+}
+.graph p , .graph span{
+  font-size: 14px;
+  font-weight: 600;
+}
+.headinggg span{
+  margin: 0 0 0 15px;
+  background-color: #F1F1F1;
+font-size: 12px; 
+padding: 10px;
+border-radius: 50px;
+}
+.opacity{
+  opacity: 0.6;
+}
+.dark{
+  margin-top: 35px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+h5{
+  margin: 37px 43px;
+}
+.bottom-container{
+  margin: 37px 43px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box{
+  width: 160px;
+  height: 65px;
+  border-radius: 35px;
+  background-color: #FFFFFF;
+  padding: 25px;
+
+}
+.box h5{
+  margin: unset;
+}
+.bold{
+  font-weight: bold;
+  font-size: 20px;
+text-align: center;
+}
+.bold span{
+  font-size: 14px;
+  font-weight: normal;
+}
+.little-text{
+  font-size: 11px;
+  color: grey;
+  
+}
+.little-text-flex{
+  justify-content:space-between
+}
+.blue-bar{
+  background-color: #5C9CE5;
+  height: 8px;
+  width: 28%;
+  border-radius: 5px;
+}
+.grey-bar{
+  float: right;
+  width: 65%;
+  height: 100%;
+  background-color: lightgray;
+}
+.wind{
+  width: 15%;
+  background-color: lightgray;
+  height:8px;
+  border-radius: 5px;
+}
+.blue-bar-wind{
+  background-color: #5C9CE5;
+}
+.wind-grey-bar{
+  float: right;
+  width: 10%;
+  background-color: lightgrey;
+  height: 100%;
+}
+.precip{
+  height: 8px;
+  width:8%;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+.precip-blue{
+  background-color: #5C9CE5;
+}
+.uv{
+  width: 16%;
+  height: 8px;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+.uv-blue{
+    background-color: #5C9CE5;
+}
+.uv-grey{
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-color: lightgrey;
+}
+.feel-blue{
+  background-color: #5C9CE5;
+  height: 8px;
+  width: 100%;
+  border-radius: 5px;
+}
+.feel-grey{
+  width: 33%;
+  height: 100%;
+  float: right;
+  background-color: lightgrey;
+}
+.rain-grey{
+  width: 58%;
+    height: 100%;
+    float: right;
+    background-color: lightgrey;
 }

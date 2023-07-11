@@ -32,7 +32,7 @@ function App() {
 
 <div className="right-float">
   <i className='material-icons md-dark md-30'>more_horiz</i>
-    <img src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/75897154-d745-439d-baad-5d6f94b052d3/df8ncub-f6ed6168-62c7-4ba5-b4fe-2ff90f62a609.jpg/v1/fill/w_800,h_999,q_70,strp/gabbie_carter_by_skywalker3232_df8ncub-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM0OSIsInBhdGgiOiJcL2ZcLzc1ODk3MTU0LWQ3NDUtNDM5ZC1iYWFkLTVkNmY5NGIwNTJkM1wvZGY4bmN1Yi1mNmVkNjE2OC02MmM3LTRiYTUtYjRmZS0yZmY5MGY2MmE2MDkuanBnIiwid2lkdGgiOiI8PTEwODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ESc0wp4OYQxQ0RZw_2TbTGciO2eplmKi6Ue7d-I5xHg' alt='img'>
+    <img src='https://images.unsplash.com/photo-1508919801845-fc2ae1bc2a28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60lic\girl.jpg' alt='img'>
 </div>
 </div>
 <div className='graph'>
